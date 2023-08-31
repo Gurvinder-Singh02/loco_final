@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+
+</head>
+
+<body>
+    <div id="main" data-scroll-container>
+        <section class="page " id="page1" data-scroll-section>
+            <div data-scroll class="nav">
+                <h4>LOCOMOTIVE.CA</h4>
+                <h4>GXURI-EDITION-V1</h4>
+            </div>
+            <div data-scroll class="title">
+                <h1>LOCOMOTIVE</h1>
+                <h1>SCROLL</h1>
+                <h1 class="me">BY GURI</h1>
+            </div>
+        </section>
+        <section class="page" id="page2" data-scroll-section>
+            <div class="side-title" data-scroll data-scroll-sticky data-scroll-target=".bars">
+                <h3>01. <br> Scroll direction</h3>
+                <p>chosse your direction go up or downwards <br> and see the smoothness</p>
+            </div>
+            <div class="bars">
+                <div class="bar-item">
+                    <div data-scroll data-scroll-direction="horizontal" data-scroll-speed="8"
+                        data-scroll-target="#page2">
+                        <span class=" bar-inner -one">THIS TO BE MOVED IN THIS DIRECTION</span>
+                    </div>
+                </div>
+                <div class="bar-item">
+                    <div data-scroll data-scroll-direction="horizontal" data-scroll-speed="-10"
+                        data-scroll-target="#page2"> <span class=" bar-inner -two">THIS TO BE MOVED IN THIS
+                            DIRECTION</span>
+                    </div>
+                </div>
+                <div class="bar-item">
+                    <div data-scroll data-scroll-direction="horizontal" data-scroll-speed="12"
+                        data-scroll-target="#page2"> <span class=" bar-inner -three">THIS TO BE MOVED IN THISDIRECTION
+                        </span>
+                    </div>
+                </div>
+                <div class="bar-item">
+                    <div data-scroll data-scroll-direction="horizontal" data-scroll-speed="-12"
+                        data-scroll-target="#page2"> <span class=" bar-inner -four">THIS TO BE MOVED IN THIS DIRECTION
+                        </span>
+                    </div>
+                </div>
+                <div class="bar-item">
+                    <div data-scroll data-scroll-direction="horizontal" data-scroll-speed="18"
+                        data-scroll-target="#page2"> <span class=" bar-inner -five">THIS TO BE MOVED IN THIS DIRECTION
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </section>
+        <section  class="page" id="page3" data-scroll-section>
+            <div class="side-title" style="right: 0;" data-scroll data-scroll-sticky data-scroll-target="#page3">
+                <h3>02. <br> Speed Control</h3>
+                <p>chosse your Speed go up or downwards <br> and see the smoothness</p>
+            </div>
+            <div data-scroll data-scroll-delay="0.45"  class="items">
+                <div data-scroll data-scroll-speed="15" class="item ">X15</div>
+                <div data-scroll data-scroll-speed="10" class="item ">X10</div>
+                <div data-scroll data-scroll-speed="5" class="item ">X5</div>
+                <div data-scroll data-scroll-speed="2" class="item ">X3</div>
+                <div data-scroll data-scroll-speed="1" class="item ">X1</div>
+                
+            </div>
+        </section>
+        <section  class="page" id="page4" data-scroll-section>
+            <div class="side-title" data-scroll data-scroll-sticky data-scroll-target="#page4">
+                <h3>03. <br> Lerp Effect</h3>
+                <p>chosse your Speed go up or downwards <br> and see the smoothness</p>
+            </div>
+        
+            <div class="subs">
+                <h2  data-scroll data-scroll-repeat>
+        
+                    <span data-scroll data-scroll-delay="0.15" data-scroll-speed="5">T</span>
+                    <span data-scroll data-scroll-delay="0.095" data-scroll-speed="5">H</span>
+                    <span data-scroll data-scroll-delay="0.085" data-scroll-speed="5">I</span>
+                    <span data-scroll data-scroll-delay="0.075" data-scroll-speed="5">S</span>
+                    <span data-scroll data-scroll-delay="0.065" data-scroll-speed="5">_</span>
+                    <span data-scroll data-scroll-delay="0.055" data-scroll-speed="5">I</span>
+                    <span data-scroll data-scroll-delay="0.045" data-scroll-speed="5">S</span>
+                    <span data-scroll data-scroll-delay="0.035" data-scroll-speed="5">_</span>
+                    <span data-scroll data-scroll-delay="0.045" data-scroll-speed="5">D</span>
+                    <span data-scroll data-scroll-delay="0.055" data-scroll-speed="5">E</span>
+                    <span data-scroll data-scroll-delay="0.065" data-scroll-speed="5">L</span>
+                    <span data-scroll data-scroll-delay="0.085" data-scroll-speed="5">A</span>
+                    <span data-scroll data-scroll-delay="0.095" data-scroll-speed="5">Y</span>
+                </h2>
+            </div>
+           
+        </section>
+    </div>
+    <!-- locomotive cdn link js -->
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

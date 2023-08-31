@@ -1,0 +1,147 @@
+@font-face {
+    font-family: n1;
+    src: url(./fonts/NeueMontreal-Medium.woff);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: n1;
+    font-weight: 100;
+}
+
+html {
+    font-family: n1;
+    background-color: #d3c9c9;
+    color: #222222;
+}
+
+.page {
+    width: 100vw;
+    min-height: 100vh;
+    position: relative;
+    padding: 2vw 3vw;
+}
+
+#page1 .nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 5vh 0;
+    font-size: 1.5vw;
+}
+
+#page1 .title {
+    font-size: 6vw;
+    line-height: 0.8;
+    margin-top: 30vh;
+}
+
+#page1 .me {
+    margin-top: 30px;
+    font-weight: 100;
+    font-size: 7vw;
+    color: #fff;
+}
+
+.side-title {
+    width: 30%;
+    font-weight: bold;
+    position: absolute;
+    top: 35vh;
+}
+
+.side-title h3 {
+    font-size: 5vw;
+    line-height: 0.8;
+}
+
+.side-title p {
+    margin-top: 10px;
+}
+
+
+#page2 {
+    background-color: #222;
+    color: #fff;
+}
+
+#page2 .bars {
+    padding: 110vh 0;
+}
+
+#page2 .bar-item {
+    font-size: 8vw;
+    font-weight: 600;
+    line-height: 1;
+    filter: drop-shadow(0 10px 10px #222222);
+}
+
+#page2 .bar-item span {
+    background-color: #fff;
+    color: #222222;
+    display: inline-block;
+    padding: 0 20px;
+    white-space: nowrap;
+}
+
+.bar-inner.-one { transform: translateX(-50vw) rotate(26deg) } 
+.bar-inner.-two {transform: rotate(-9deg) }
+.bar-inner.-three {transform: rotate(9deg) }
+.bar-inner.-four { transform: translate(-39vw, -19vw) rotate(-19deg) }
+.bar-inner.-five {transform: translateX(10vw) rotate(13deg) } 
+
+#page3 {
+    background-color: #d3c9c9;
+    color: #222; 
+}
+
+#page3 .items{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 100vh;
+} 
+
+#page3 .item {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #222222;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #d3c9c9;
+    font-size: 2vw;
+    font-weight: 100;
+
+
+}
+
+#page4 {
+    background-color: #222;
+    color: #d3c9c9;
+
+    
+}
+
+#page4 .subs {
+    margin-top: 30vh;
+    margin-left: 40vw;
+    position: relative;
+    font-size: 4vw;
+    color: #d3c9c9;
+}
+
+#page4 .subs h2 {
+
+    width: 100%;
+    font-weight: 100;
+    letter-spacing: -10px;
+}
+
+#page4 .subs h2 span {
+    display: inline-block;
+}
